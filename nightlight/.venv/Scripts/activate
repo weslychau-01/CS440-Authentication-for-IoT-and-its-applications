@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Zion - Wesly\Desktop\CS440\nightlight\.venv"
+VIRTUAL_ENV="D:\Github\CS440-Authentication-for-IoT-and-its-applications\nightlight\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

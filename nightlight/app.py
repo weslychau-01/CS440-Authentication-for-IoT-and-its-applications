@@ -6,7 +6,7 @@ from counterfit_shims_grove.grove_led import GroveLed
 
 CounterFitConnection.init('127.0.0.1', 5001)
 
-light_sensor = GroveLightSensor(1, 1231)
+light_sensor = GroveLightSensor(1, 1232)
 led = GroveLed(2)
 
 while True:

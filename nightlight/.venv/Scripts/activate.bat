@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Zion - Wesly\Desktop\CS440\nightlight\.venv
+set VIRTUAL_ENV=D:\Github\CS440-Authentication-for-IoT-and-its-applications\nightlight\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
