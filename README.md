@@ -11,6 +11,7 @@ pip install CounterFit-0.1.4.dev9-py3-none-any.whl
 pip install werkzeug==2.0.0 --force-reinstall
 pip install counterfit_connection-0.1.0.dev5-py3-none-any.whl
 pip install counterfit_shims_grove-0.1.4.dev5-py3-none-any.whl
+pip install pycryptodome
 counterfit 
 
 On the browser open a new page:  http://localhost:5001/
