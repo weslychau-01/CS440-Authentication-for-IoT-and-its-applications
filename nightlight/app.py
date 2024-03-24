@@ -8,7 +8,7 @@ from counterfit_shims_grove.grove_led import GroveLed
 # from Crypto.Random import get_random_bytes
 
 try:
-    CounterFitConnection.init('127.0.0.1', 5050)
+    CounterFitConnection.init('127.0.0.1', 5000)
     print("connection passed")
     
 except: 
