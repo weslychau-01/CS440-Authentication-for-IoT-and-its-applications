@@ -6,6 +6,7 @@ from counterfit_shims_grove.grove_led import GroveLed
 
 CounterFitConnection.init('127.0.0.1', 5001)
 
+# Try changing 1231 to 1232, pops error for invalid sharedkey
 light_sensor = GroveLightSensor(1, 1232)
 led = GroveLed(2)
 
