@@ -1,10 +1,9 @@
 # CS440-Authentication-for-IoT-and-its-applications
 
-Hi guys 
+## Steps to run this in your local machine 
+delete .venv folder if it exists
 
-Steps to run this in your local machine 
-
-cd nightlight
+cd nightlight          
 python -m venv .venv
 .venv\Scripts\activate.bat
 pip install CounterFit-0.1.4.dev9-py3-none-any.whl

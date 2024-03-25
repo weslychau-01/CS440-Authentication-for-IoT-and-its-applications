@@ -18,15 +18,16 @@ while True:
     try: 
         sensor_value = light_sensor.light
         print(f'Light sensor reading: {sensor_value}')
-
-        if sensor_value > 200:
-            print('Turning LED off')
-            led.off()
-        else:
-            print('Turning LED on')
-            led.on()
-
-        time.sleep(2)
     except:
         print('Invalid shared key. Please check the shared key and try again.')
         break
+    
+    if sensor_value > 200:
+        print('Turning LED off')
+        led.off()
+    else:
+        print('Turning LED on')
+        led.on()
+
+    time.sleep(2)
+    
