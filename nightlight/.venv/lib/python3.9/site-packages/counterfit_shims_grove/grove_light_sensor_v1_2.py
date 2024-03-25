@@ -26,7 +26,7 @@ Examples:
 # pylint: disable=too-few-public-methods
 
 # pylint: disable=import-error
-from counterfit_connection import CounterFitConnection
+from counterfit_shims_grove.counterfit_connection import CounterFitConnection
 
 __all__ = ['GroveLightSensor']
 

@@ -1,6 +1,6 @@
 import time
 
-from counterfit_connection import CounterFitConnection
+from counterfit_shims_grove.counterfit_connection import CounterFitConnection
 from counterfit_shims_grove.grove_light_sensor_v1_2 import GroveLightSensor
 from counterfit_shims_grove.grove_led import GroveLed
 
@@ -8,7 +8,7 @@ from counterfit_shims_grove.grove_led import GroveLed
 # from Crypto.Random import get_random_bytes
 
 try:
-    CounterFitConnection.init('127.0.0.1', 5000)
+    CounterFitConnection.init('127.0.0.1', 5050)
     print("connection passed")
     
 except: 
