@@ -6,7 +6,8 @@ from counterfit_shims_grove.grove_light_sensor_v1_2 import GroveLightSensor
 from counterfit_shims_grove.grove_led import GroveLed
 
 CounterFitConnection.init('127.0.0.1', 5001)
-sharedkey = b'Sf11SX7KTZg7UFSB'
+sharedkey = b'Sf11SX7KTZg7UFSB' 
+#sharedkey = b'3jQ1dF9A6Pm4KsL2'
 iv_in_bytes = b'Q1nulqHWhajpiKDe'
 # Try changing 1231 to 1232, pops error for invalid sharedkey
 
@@ -15,13 +16,13 @@ light_sensor = GroveLightSensor(1, sharedkey, iv_in_bytes)
 led = GroveLed(2)
 
 while True:
-    try: 
-        sensor_value = light_sensor.light
-        print(f'Light sensor reading: {sensor_value}')
-    except:
+    sensor_value = light_sensor.light
+    if (sensor_value == -1):
         print('Invalid shared key. Please check the shared key and try again.')
         break
     
+    print(f'Light sensor reading: {sensor_value}')
+
     if sensor_value > 200:
         print('Turning LED off')
         led.off()
