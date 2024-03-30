@@ -2,6 +2,7 @@
 
 ## Steps to run this in your local machine 
 ### Step 1:
+Clone the project <br />
 delete .venv folder if it exists <br />
 `cd nightlight`   <br />
 `python -m venv .venv`<br />
