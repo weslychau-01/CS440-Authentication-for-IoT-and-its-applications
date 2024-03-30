@@ -16,8 +16,8 @@ delete .venv folder if it exists <br />
 
 ### Step 2:
 On the browser open a new page:  
-http://localhost:5001/
-create one sensor with type light with pin 1
+http://localhost:5001/<br />
+create one sensor with type light with pin 1<br />
 create one actuator with type LED with pin 2
 
 ### Step 3:
